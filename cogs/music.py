@@ -17,7 +17,7 @@ class Music(commands.Cog):
     # connect to lavalink
     if not hasattr(bot, "music"):
       # make a new instance
-      bot.music = lavalink.Client(755613660822372393)
+      bot.music = lavalink.Client(bot.user.id)
 
       # add the node
       bot.music.add_node(

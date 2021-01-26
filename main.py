@@ -15,7 +15,7 @@ config = load_config("config.json")
 bot = Bot(
     command_prefix=config["prefix"],
     case_insensitive=True,
-    help_command=DefaultHelpCommand()
+    help_command=DefaultHelpCommand(),
     owner_ids=config["owner"],
     description="A Python music bot"
 )
