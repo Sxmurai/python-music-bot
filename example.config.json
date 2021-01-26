@@ -1,0 +1,12 @@
+{
+  "token": "",
+  "prefix": "!!",
+  "owner": [],
+  "lavalink": {
+    "host": "localhost",
+    "port": 2333,
+    "password": "youshallnotpass",
+    "region": "en",
+    "name": "Node 1"
+  }
+}
